@@ -150,19 +150,22 @@ footer nav a {
 header{
 	text-align: center;
     margin:20px;
-    padding-bottom: 40px;
+
 }
 header nav{
     display:flex;
     justify-content: space-evenly;
-
-    width:1000px ;
+    margin-left: -15px;
+    width:65% ;
 }
+
 
 header nav a{
     color:gray;
-    text-size-adjust:20px;
-    
+    height:20px;  
+    line-height: 60px;
+    font-size:14px;
+   
 }
 header nav  {
 	color: gray;
@@ -281,5 +284,4 @@ header .jumbo{
     text-align: center;
     line-height: 120px;
     font-size: 30px;
-    padding:5px;
     }
